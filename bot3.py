@@ -54,16 +54,6 @@ def hello():
                     if text == 'rf':
                         requests.get(f'http://192.168.1.90/Turn?q={90}')
                     
-                    # if text == 'f':
-                    #     requests.get(f'http://192.168.1.90/Buzz')
-                # if len(text) >= 1:
-                #     command = text[0]
-                #     if command == '!move':
-                #         if len(text) == 3:
-                #             start = text[1]
-                #             finish = text[2]
-                #             q.put_nowait([start, finish, username, site])
-                #             print(f'{username} с {site} походил {start} {finish}')
             except:
                 pass
 
